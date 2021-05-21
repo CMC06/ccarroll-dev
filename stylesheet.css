@@ -7,12 +7,6 @@ body {
   font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-p {
-  text-align: left;
-  margin-left: 20px;
-  margin-right: 20px;
-}
-
 #headshot {
   border-radius: 35%;
   width: 200px;
@@ -50,4 +44,10 @@ h2 {
 .PhotoHeadline {
   width: 100%;
   background-color: rgb(44, 41, 41);
+}
+
+.bodyP {
+  text-align: left;
+  margin-left: 20px;
+  margin-right: 20px;
 }
