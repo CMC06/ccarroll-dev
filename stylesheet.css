@@ -39,6 +39,7 @@ h2 {
 .card {
   margin: 5%;
   margin-top: 2%;
+  display: inline-flex;
 }
 
 .PhotoHeadline {
@@ -49,5 +50,31 @@ h2 {
 .bodyP {
   text-align: left;
   margin-left: 20px;
-  margin-right: 20px;
+  margin-right: auto;
+}
+
+.codingIcon {
+  width: 60px;
+  border-radius: 30%;
+}
+
+.skillsList {
+  display: flex;
+}
+
+.skillsListIcon {
+  list-style: none;
+  flex-direction: row;
+  padding: 2%;
+}
+
+.skillsListLabel {
+  list-style: none;
+  flex-direction: column;
+  text-align: left;
+  padding-top: 10px;
+  }
+
+.Projects {
+  /*Need to figure out how to display the cards across the screen*/
 }

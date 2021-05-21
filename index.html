@@ -3,9 +3,9 @@
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Chelsea's Portfolio</title>
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
   <link rel="stylesheet" href="./stylesheet.css" async>
 </head>
 <header>
@@ -18,20 +18,22 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Home</a>
+            <a class="nav-link" aria-current="page" href="https://cmc06.github.io/">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
+            <a class="nav-link" href="#Bio">About Me</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Skills Overview</a>
           </li>
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
               Coding Projects
             </a>
             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <li><a class="dropdown-item" href="#">Action</a></li>
-              <li><a class="dropdown-item" href="#">Another action</a></li>
-              <li><hr class="dropdown-divider"></li>
-              <li><a class="dropdown-item" href="#">Something else here</a></li>
+              <li><a class="dropdown-item" href="#PacManCard">PacMan Browser Game</a></li>
+              <li><a class="dropdown-item" href="#MonsterEyesCard">Monster Eyes</a></li>
+              <li><a class="dropdown-item" href="#BusTrackerCard">Realtime Bus Tracker</a></li>
             </ul>
           </li>
         </ul>
@@ -46,18 +48,29 @@
     <h1>Chelsea Carroll's Web Development Portfolio</h1>
   </div>
   <br>
-  <div class="Bio">
-    <h2>About Me</h2>
+  <div class="Bio"><a id="Bio">
+    <h2>About Me</h2></a>
     <p class="bodyP">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Beatae vitae neque repellendus nesciunt optio debitis! Quos aspernatur, illum quam officia corrupti dignissimos blanditiis ex sapiente quibusdam commodi provident ab perspiciatis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero perferendis odio voluptatibus maiores ut reiciendis aliquam vel exercitationem, adipisci esse eveniet, quaerat dolor at sed nisi excepturi in numquam laudantium. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam similique accusamus quo quas, accusantium delectus! Eaque commodi architecto ratione. Corrupti cumque cum similique temporibus voluptatem! Corporis, excepturi. Obcaecati, praesentium impedit.</p>
+  </div>
+  <div class="Skills">
+    <h2>Current Coding Skills</h2>
+    <div class="codingIcons">
+      <ul class="skillsList">
+        <li class="skillsListIcon">JavaScript ES6</li>
+        <li class="skillsListIcon">HTML5</li>
+        <li class="skillsListIcon">CSS3</li>
+        <li class="skillsListIcon"><img src="BootstrapIcon.jpg" class="codingIcon" id="BootstrapIcon" width="50px" border-radius="40%"><br>
+        <ul><li class="skillsListLabel">Bootstrap</li></ul></li>
+      </ul>
+    </div>
   </div>
   <div class="Projects">
     <h2>Coding Projects</h2>
-
-  <!--Second Type of Card-->
-  <div class="card" style="width: 20rem;">
+  <!--PacMan Card-->
+  <div class="card" style="width: 20rem;" id="PacManCard">
     <img src="pacman snip.PNG" class="card-img-top" alt="Image from PacMan project">
     <div class="card-body">
-      <h5 class="card-title">PacMan Project</h5>
+      <h5 class="card-title">PacMan Inspired Browser Game</h5>
       <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
     </div>
     <ul class="list-group list-group-flush">
@@ -65,8 +78,31 @@
       <li class="list-group-item"><a href="https://github.com/CMC06/PacManProject" target="_blank">Code Repository</a></li>
     </ul>
   </div>
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  <!--Monster Eyes Card-->
+  <div class="card" style="width: 20rem;" id="MonsterEyesCard">
+    <img src="oneeye.png" class="card-img-top" alt="Image from Monster Eye Animation project">
+    <div class="card-body">
+      <h5 class="card-title">Monster Eye Animation</h5>
+      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    </div>
+    <ul class="list-group list-group-flush">
+      <li class="list-group-item"><a href="https://cmc06.github.io/MonsterEyesAnimation/eyes.html" target="_blank">Project Demo</a></li>
+      <li class="list-group-item"><a href="https://github.com/CMC06/MonsterEyesAnimation" target="_blank">Code Repository</a></li>
+    </ul>
+  </div>
+  <!--Bus Tracker Card-->
+  <div class="card" style="width: 20rem;" id="BusTrackerCard">
+    <img src="busTrackerSnip.JPG" class="card-img-top" alt="Image from Boston Bus Tracker Project">
+    <div class="card-body">
+      <h5 class="card-title">Boston Realtime Bus Tracker</h5>
+      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    </div>
+    <ul class="list-group list-group-flush">
+      <li class="list-group-item"><a href="https://cmc06.github.io/BostonRealTimeBusTracker/real-time_bus_tracker.html" target="_blank">Project Demo</a></li>
+      <li class="list-group-item"><a href="https://github.com/CMC06/BostonRealTimeBusTracker" target="_blank">Code Repository</a></li>
+    </ul>
+  </div>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
 </body>
 </html>
