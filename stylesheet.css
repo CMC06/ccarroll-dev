@@ -44,7 +44,7 @@ h2 {
 
 .PhotoHeadline {
   width: 100%;
-  background-color: rgb(44, 41, 41);
+  background-color: #212529;
 }
 
 .bodyP {
@@ -91,13 +91,16 @@ h2 {
 
 .socialIcons {
   list-style: none;
-  display: inline-flex;
+  position: relative;
+  display: flex;
   text-align: right;  
   align-items: center;
+  justify-content:space-between;
   padding-right: 10px;
 }
 
 .sIcon {
   padding-right: 10px;
-  margin-top: 7px;
+  padding-top:.5rem;
+  height: 30px;
 }
