@@ -151,16 +151,41 @@ h2 {
 .bioDiv {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-evenly;
-  padding: 20px;
+  justify-content: center;
 }
+
 .bioVid {
   margin-left: 20px;
+  align-content: left;
+  padding: 20px;
+  align-items: left;
   float: left;
+  max-width: 800px;
+  width: 100%;
+}
+
+.videoIntro {
+  position: relative;
+  padding-bottom: 56.25%;
+}
+
+.videoIntro iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.vidTxt {
+  font-size: .75rem;
+  margin-left: 10px;
 }
 
 .bioTxt {
   float: left;
+  padding: 20px;
+  max-width: 800px;
 }
 
 footer {
