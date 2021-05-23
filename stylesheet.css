@@ -22,28 +22,61 @@ h1 {
   margin: 20px;
   font-family: Georgia, 'Times New Roman', Times, serif;
   font-size: 3rem;
-  color: white;
+  color: #fff;
   z-index: 2;
-  padding-top: 70px;
-  float: right;
+  float: left;
 }
 
 h2 {
   margin-left: 20px;
 }
 
-#nav {
-  background-color: rgb(44, 41, 41);
-}
-
 .card {
   margin: 5%;
   margin-top: 2%;
   display: inline-flex;
+  background-color: #212529;
+  height: 450px;
+  justify-content: center;
+}
+
+.projectCards {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.card-title {
+  color: #fff;
+}
+
+.card-text {
+  color: #fff;
+}
+
+.list-group-item {
+  background-color: #212529;
+}
+
+.grayPlainLink {
+  text-decoration: none;
+  color: rgba(255,255,255,.55);
+}
+
+.grayPlainLink:hover {
+  color:rgba(255,255,255,.75);
+}
+
+.card-img-top{
+  padding: 4px;
 }
 
 .PhotoHeadline {
   width: 100%;
+  display:flex;
+  flex-wrap:wrap;
+  align-items:center;
+  justify-content:space-between;
   background-color: #212529;
 }
 
@@ -59,14 +92,19 @@ h2 {
 }
 
 .skillsList {
-  display: flex;
+  display:flex;
+  flex-wrap:wrap;
+  align-items:center;
+  justify-content:space-between;
+  padding: 20px;
+  margin-right: 5%;
+  margin-left: 5%;
 }
 
 .skillsListIcon {
-  padding-top: 10px;
+  padding: 10px;
   list-style: none;
   flex-direction: row;
-  padding-left: 10%;
   text-align: center;
   font-weight: bold;
   font-size: .9rem;
@@ -74,6 +112,7 @@ h2 {
 
 .coding-languages {
   font-size: .75rem;
+  color: #fff;
 }
 
 .plainLink {
@@ -103,4 +142,30 @@ h2 {
   padding-right: 10px;
   padding-top:.5rem;
   height: 30px;
+}
+
+.dropdown-item {
+  color: rgba(255,255,255,.55);
+}
+
+.bioDiv {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  padding: 20px;
+}
+.bioVid {
+  margin-left: 20px;
+  float: left;
+}
+
+.bioTxt {
+  float: left;
+}
+
+footer {
+  font-size: .75rem;
+  color: #2d2d2e;
+  padding: 20px;
+  text-align: center;
 }
