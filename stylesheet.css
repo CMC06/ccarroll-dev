@@ -1,9 +1,5 @@
-html {
-  background-color: rgb(151, 146, 146); 
-}
-
 body {
-  background-color: rgb(151, 146, 146);
+  background-color: rgb(172, 169, 169);
   font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
@@ -20,14 +16,16 @@ body {
 
 h1 {
   margin: 20px;
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  font-size: 3rem;
   color: #fff;
-  z-index: 2;
+  font-size: 2.5rem;
   float: left;
 }
 
 h2 {
+  margin-left: 20px;
+}
+
+h4 {
   margin-left: 20px;
 }
 
@@ -37,13 +35,13 @@ h2 {
   display: inline-flex;
   background-color: #212529;
   height: 450px;
-  justify-content: center;
 }
 
 .projectCards {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
+  justify-content: space-evenly;
 }
 
 .card-title {
@@ -76,7 +74,7 @@ h2 {
   display:flex;
   flex-wrap:wrap;
   align-items:center;
-  justify-content:space-between;
+  justify-content:initial;
   background-color: #212529;
 }
 
@@ -151,7 +149,7 @@ h2 {
 .bioDiv {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: space-evenly;
 }
 
 .bioVid {
