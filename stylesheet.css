@@ -179,10 +179,29 @@ h6 {
 }
 
 .bioDiv {
-  display: flex;
+  display: grid;
+  /*display: flex;*/
   flex-wrap: wrap;
   justify-content: space-evenly;
 }
+
+@media(min-width: 1000px) {
+  .bioDiv{
+    grid-template-columns: 6fr 6fr;
+    grid-template-areas: 
+    "bioVid" "bioTxt";
+  }
+}
+
+@media(max-width: 999px) {
+  .bioDiv{
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      "bioVid"
+      "bioText";
+  }
+}
+
 
 .bioVid {
   margin-left: 20px;
