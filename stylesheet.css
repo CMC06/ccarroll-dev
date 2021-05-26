@@ -145,8 +145,8 @@ h6 {
   padding-top:.5rem;
   height: 30px;
 }
-
-.contactForm {
+/*Can replace later when adding form*/
+/* .contactForm {
   margin-left: 20px;
   align-content: left;
   padding: 20px;
@@ -154,7 +154,7 @@ h6 {
   float: left;
   max-width: 800px;
   width: 100%;
-}
+} */
 
 /* Placeholder if choose to embed Google Form w/ iframe */
 /* .embedForm {
@@ -202,6 +202,9 @@ h6 {
   }
 }
 
+.outerVid {
+  display: flex;
+}
 
 .bioVid {
   margin-left: 20px;
