@@ -1,3 +1,11 @@
+.grid-main {
+  display: grid;
+  gap: 0px;
+  grid-template-areas: 
+  "header"
+  "body"
+  "footer";
+}
 
 body {
   background-color: rgb(172, 169, 169);
@@ -146,29 +154,6 @@ h6 {
   padding-top:.5rem;
   height: 30px;
 }
-/*Can replace later when adding form*/
-/* .contactForm {
-  margin-left: 20px;
-  align-content: left;
-  padding: 20px;
-  align-items: left;
-  float: left;
-  max-width: 800px;
-  width: 100%;
-} */
-
-/* Placeholder if choose to embed Google Form w/ iframe */
-/* .embedForm {
-  position: relative;
-  padding-bottom: 56.25%;
-}
-
-.embedForm iframe {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-} */
 
 .dropdown-item {
   color: rgba(255,255,255,.55);
@@ -213,7 +198,6 @@ h6 {
   padding: 20px;
   align-items: left;
   float: left;
-  max-width: 800px;
   width: 100%;
 }
 
@@ -238,7 +222,7 @@ h6 {
 .bioTxt {
   float: left;
   padding: 20px;
-  max-width: 800px;
+  max-width: 850px;
 }
 
 .eduList {
