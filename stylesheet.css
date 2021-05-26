@@ -171,7 +171,7 @@ h6 {
   justify-content: space-evenly;
 }
 
-@media(min-width: 1000px) {
+@media(min-width: 1200px) {
   .bioDiv{
     grid-template-columns: 6fr 6fr;
     grid-template-areas: 
@@ -179,12 +179,18 @@ h6 {
   }
 }
 
-@media(max-width: 999px) {
+@media(max-width: 1199px) {
   .bioDiv{
     grid-template-columns: 1fr;
     grid-template-areas:
       "bioVid"
       "bioText";
+  }
+}
+
+@media (min-width: 950px) and (max-width: 1199px){
+  .bioVid {
+    max-width: 950px;
   }
 }
 
