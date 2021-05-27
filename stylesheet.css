@@ -13,14 +13,10 @@ body {
 }
 
 #headshot {
-  border-radius: 35%;
-  width: 200px;
-  height: 200px;
+  width: 100%;
   object-fit: cover;
-  margin: 20px;
+  margin: 0px;
   margin-bottom: 10px;
-  margin-left: 10px;
-  z-index: 2;
 }
 
 h1 {
