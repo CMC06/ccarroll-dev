@@ -97,6 +97,10 @@ h6 {
   border-radius: 30%;
 }
 
+#ReactIcon {
+  background-color: #20232A;
+}
+
 .skillsList {
   display:flex;
   flex-wrap:wrap;
