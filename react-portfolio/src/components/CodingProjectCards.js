@@ -1,9 +1,9 @@
 import projects from "../Projects";
-import { Card, ListGroup, ListGroupItem } from 'react-bootstrap'
+import { Card, ListGroup, ListGroupItem, Container } from 'react-bootstrap'
 
 const images = require.context('../img', true);
 
-const CodingProjectCard = () => {
+const CodingProjectCards = () => {
 
   const cards = projects.map( project => {
     let title = project.title;
@@ -14,7 +14,6 @@ const CodingProjectCard = () => {
     let repourl = project.repourl;
     let languages = project.languages;
     let id = project.id;
-    let imgImportName = project.imgImportName;
 
     return (
       <Card style={{ width: '20rem' }} id={id} variant="dark" >
@@ -32,17 +31,17 @@ const CodingProjectCard = () => {
         </ListGroup>
       </Card>
     )
-  })
+  });
   
 
   return (
-    <div className="Projects">
+    <Container className="Projects section">
       <h2>Coding Projects</h2>
       <div className="projectCards">
         {cards}
       </div>
-    </div>
+    </Container>
   );
 };
 
-export default CodingProjectCard;
+export default CodingProjectCards;

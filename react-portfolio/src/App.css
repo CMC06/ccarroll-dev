@@ -164,80 +164,17 @@ h6 {
   color: rgba(255,255,255,.75);
 }
 
-.bioDiv {
-  display: grid;
-  /*display: flex;*/
-  flex-wrap: wrap;
-  justify-content: space-evenly;
+.section{
+  padding-top: 2%;
 }
 
-@media(min-width: 1200px) {
-  .bioDiv{
-    grid-template-columns: 6fr 6fr;
-    grid-template-areas: 
-    "bioVid" "bioTxt";
-  }
+.bioList {
+  padding-left: 10px;
 }
 
-@media(max-width: 1199px) {
-  .bioDiv{
-    grid-template-columns: 1fr;
-    grid-template-areas:
-      "bioVid"
-      "bioText";
-  }
-}
-
-@media (min-width: 950px) and (max-width: 1199px){
-  .bioVid {
-    max-width: 950px;
-  }
-}
-
-.outerVid {
-  display: flex;
-}
-
-.bioVid {
-  margin-left: 20px;
-  align-content: left;
-  padding: 20px;
-  align-items: left;
-  float: left;
-  width: 100%;
-}
-
-.videoIntro {
-  position: relative;
-  padding-bottom: 56.25%;
-}
-
-.videoIntro iframe {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-}
-
-.vidTxt {
-  font-size: .75rem;
-  margin-left: 10px;
-}
-
-.bioTxt {
-  float: left;
-  padding: 20px;
-  max-width: 850px;
-}
-
-.eduList {
-  margin-left: 20px;
-}
-
-.hobbyList {
-  margin-left: 20px;
-  columns:2;
+.bioBullets {
+  margin-left: 2%;
+  list-style-position: inside;
 }
 
 footer {
