@@ -16,7 +16,7 @@ const CodingProjectCards = () => {
     let id = project.id;
 
     return (
-      <Card style={{ width: '20rem' }} id={id} variant="dark" >
+      <Card style={{ width: '20rem' }} id={id} variant="dark" key={id}>
         <Card.Img variant="top" src={images(`${imgSrc}`).default} alt={imgAlt} />
         <Card.Body>
           <Card.Title>{title}</Card.Title>
@@ -25,8 +25,8 @@ const CodingProjectCards = () => {
           </Card.Text>
         </Card.Body>
         <ListGroup className="list-group-flush">
-          <ListGroupItem><Card.Link href={demourl} target="_blank" class="grayPlainLink" >Project Demo</Card.Link></ListGroupItem>
-          <ListGroupItem><Card.Link href={repourl} target="_blank" class="grayPlainLink"  >Project Repo</Card.Link></ListGroupItem>
+          <ListGroupItem><Card.Link href={demourl} target="_blank" className="grayPlainLink" >Project Demo</Card.Link></ListGroupItem>
+          <ListGroupItem><Card.Link href={repourl} target="_blank" className="grayPlainLink"  >Project Repo</Card.Link></ListGroupItem>
           <ListGroupItem className="coding-languages">{languages}</ListGroupItem>
         </ListGroup>
       </Card>
