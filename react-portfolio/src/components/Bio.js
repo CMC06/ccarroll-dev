@@ -9,7 +9,7 @@ const Bio = () => {
     <section className='section biotext' id="bio">
       <Container>
         <Row>
-          <Col>
+          <Col xs={12} s={6} m={6} lg={6} xl={6} xxl={6} >
             <h2>About Me</h2>
             <p className='bodyP'>{bioBlurb}</p>
           </Col>
