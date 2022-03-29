@@ -8,7 +8,7 @@ const NavPane = () => {
     
       <Navbar bg="dark" variant="dark" expand="lg"  fixed="bottom" >
         <Container>
-          <Navbar.Brand href="#">Chelsea Carroll</Navbar.Brand>
+          <Navbar.Brand href="#home">Chelsea Carroll</Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" bg="dark" variant="dark"/>
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="me-auto">
