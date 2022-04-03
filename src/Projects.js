@@ -1,6 +1,19 @@
 const projects =
   [
     {
+      navname: "Bad Bank",
+      hash: "#BadBank",
+      id :"BadBank",
+      imgSrc: "./bad-bank-homepage.jpg",
+      imgAlt: "Image of Bad Bank Application Homepage",
+      title: "Bad Bank Full Stack Application",
+      description: "A mock bank interface utlizing a React-based front end and Express, Node, and MongoDB back end.",
+      demourl: "http://bad-bank.ccarroll.xyz",
+      repourl: "https://github.com/CMC06/bad-bank",
+      languages: "React, CSS, Express, Node, MongoDB"
+    },
+
+    {
       navname: "Task Tracker",
       hash: "#TaskTrackerCard",
       id :"TaskTrackerCard",
