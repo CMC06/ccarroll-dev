@@ -6,15 +6,21 @@ import Bio from './components/Bio';
 import Skills from './components/Skills';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
+import ContentBuffer from './components/ContentBuffer';
 
 function App() {
   return (
     <div className="App">
       <Header />
+      <ContentBuffer hashID='#'/>
       <PhotoHeadline />
+      <ContentBuffer hashID="bio" />
       <Bio />
+      <ContentBuffer hashID="skills" />
       <Skills />
+      <ContentBuffer hashID="projects" />
       <CodingProjectCards />
+      <ContentBuffer hashID="contactinfo" />
       <Contact />
       <Footer />
     </div>

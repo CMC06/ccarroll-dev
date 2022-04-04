@@ -3,7 +3,7 @@ const images = require.context('../img', true);
 
 const Contact = () => {
   return (
-    <Container className="section" id="contactinfo">
+    <Container className="section" >
       <h2>Contact Information</h2>
       <ul>
         <li className="contactList"><div><img src={images("./GitHub-Mark.png").default} alt="Git Hub Mark Icon" height="30px" /><a href="https://github.com/CMC06" className="plainLink">  GitHub Profile</a></div></li>

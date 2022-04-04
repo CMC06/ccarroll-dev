@@ -9,7 +9,7 @@ const CodingProjectsNavList = () => {
   });
 
 return (
-    <NavDropdown title="Coding Projects" id="basic-nav-dropdown" menuVariant="dark" drop="up" >
+    <NavDropdown title="Coding Projects" id="basic-nav-dropdown" menuVariant="dark" drop="down" href="projects" >
       {projectNav}
     </NavDropdown>
 )

@@ -35,7 +35,7 @@ const CodingProjectCards = () => {
   
 
   return (
-    <Container className="Projects section">
+    <Container className="section">
       <h2>Coding Projects</h2>
       <div className="projectCards">
         {cards}
