@@ -6,7 +6,7 @@ import LinkedIn from '../img/LI-In-Bug.png'
 const NavPane = () => {
     return (
     
-      <Navbar bg="dark" variant="dark" expand="lg"  fixed="bottom" >
+      <Navbar bg="dark" variant="dark" expand="lg"  fixed="top" >
         <Container>
           <Navbar.Brand href="#home">Chelsea Carroll</Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" bg="dark" variant="dark"/>

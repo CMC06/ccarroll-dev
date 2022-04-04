@@ -15,18 +15,23 @@ body {
   flex-wrap:wrap;
   align-items:center;
   justify-content:initial;
+  margin-top: 20px
 }
 
 h1{
   color: #212529;
 }
 
+.buffer {
+  height: 30px;
+}
+
 .card {
-  margin: 5%;
+  margin: 3%;
   margin-top: 2%;
   display: inline-flex;
   background-color: #212529;
-  height: 450px;
+  height: 475px;
 }
 
 .projectCards {
@@ -157,8 +162,8 @@ footer {
   font-size: .75rem;
   background-color: #212529;
   color: #fff;
-  padding: 20px;
+  padding: 10px;
   text-align: center;
   min-width: 100%;
-  margin-bottom: 30px;
+  /* margin-bottom: 30px; */
 }

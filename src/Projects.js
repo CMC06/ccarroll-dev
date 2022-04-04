@@ -54,7 +54,7 @@ const projects =
 
     {
       navname: "PacMan Browser Game",
-      hash: "#pacHash",
+      hash: "#PacManCard",
       id :"PacManCard",
       imgSrc: "./pacmanSnip.png",
       imgAlt: "Image from PacMan project",

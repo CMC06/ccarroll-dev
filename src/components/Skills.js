@@ -5,7 +5,7 @@ const images = require.context('../img', true);
 const Skills = () => {
 
   return (
-    <Container className="Skills section" id="skills">
+    <Container className="Skills section" >
       <h2>Current Coding Skills</h2>
       <div className="codingIcons">
         <ul className="skillsList">
