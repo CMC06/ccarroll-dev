@@ -18,7 +18,7 @@ body {
   margin-top: 20px
 }
 
-h1{
+h1 {
   color: #212529;
 }
 
@@ -62,7 +62,7 @@ h1{
   color:rgba(255,255,255,.75);
 }
 
-.card-img-top{
+.card-img-top {
   padding: 4px;
 }
 
@@ -144,7 +144,7 @@ h1{
   color: rgba(255,255,255,.75);
 }
 
-.section{
+.section {
   padding-top: 2%;
 }
 
@@ -165,5 +165,4 @@ footer {
   padding: 10px;
   text-align: center;
   min-width: 100%;
-  /* margin-bottom: 30px; */
 }
